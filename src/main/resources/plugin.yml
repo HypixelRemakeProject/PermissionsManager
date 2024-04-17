@@ -1,0 +1,14 @@
+name: PermissionsManager
+author: ClassyCoder
+main: com.hypixelremakeproject.permissions.PermissionsManager
+version: 1.0-SNAPSHOT
+api-version: 1.8.8
+permissions:
+  pm.admin:
+    description: Allows you to use all the commands.
+    default: op
+commands:
+  permissions:
+    description: use /permissions to get an info about this command.
+    usage: /permissions <add|remove|set|get|prefix|suffix|> [args]
+    permission: pm.admin
